@@ -1,0 +1,49 @@
+== 記述例
+
+=== サンプル
+
+foo bar baz
+
+NOTE: 脚注段落は補足情報を示すものです。
+
+TIP: チップスを記述します。
+
+IMPORTANT: 重要事項を記述します。
+
+WARNING: 警告を記述します。
+
+CAUTION: 注意を記述します。
+
+=== サンプル2
+
+==== テーブル
+
+[cols="2*", options="header"] 
+|===
+|カラム名1
+|カラム名2
+
+|セル11
+|セル12
+
+|セル21
+|セル22
+|===
+
+=== サンプル3
+
+==== 画像
+
+image::sample.jpg[]
+
+=== サンプル4
+
+[source,html]
+----
+<!doctype html>
+<html>
+<body>
+  <div id="sample" class="test"></div>
+</body>
+</html>
+----
