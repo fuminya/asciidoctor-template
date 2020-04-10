@@ -4,7 +4,7 @@
   "description": "``` asciidoctor -a stylesheet=riak.css -a stylesdir=./stylesheets src/index.adoc -o dist/index.html ```",
   "main": "build.js",
   "scripts": {
-    "lint": "textlint ./src/**/*.adoc",
+    "lint": "textlint ./src/**",
     "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,7 @@
     "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2",
     "textlint": "^11.6.3",
-    "textlint-plugin-asciidoc-loose": "^1.0.1",
+    "textlint-plugin-asciidoctor": "^1.0.3",
     "textlint-rule-no-mix-dearu-desumasu": "^4.0.0",
     "textlint-rule-preset-japanese": "^4.0.4",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
